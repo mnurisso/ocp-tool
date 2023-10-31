@@ -48,8 +48,9 @@ else:
             #   and mask_type is:
             #       A - all atmosphere, nothing masked
             #       L - land, ocean is masked
-            #       O - ocean, land is masked
+            #       O - ocean, land is masked            
             #   and resolution is:
+            #       C - coarsed resolution
             #       l - very low resolution
             #       L - low resolution
             #       M - medium (standard) resolution
@@ -79,6 +80,7 @@ else:
                 "TCO95": "ICL",
                 "TL159": "ILL",
                 "TQ21": "IQl",
+                "TL63": "ILC",
                 "ORCA1L75t": "NOTM",
                 "ORCA1L75u": "NOUM",
                 "ORCA1L75v": "NOVM",
