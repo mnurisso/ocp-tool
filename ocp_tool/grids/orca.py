@@ -11,7 +11,7 @@ class ORCA:
     _orca_names = {
         (362, 292, 75): "ORCA1L75",
         (360, 331, 75): "eORCA1L75",
-        (182, 149, 31): "ORCA2L31"
+        (180, 148, 31): "ORCA2L31"
     }
 
     def __init__(self, domain_cfg, masks=None):
